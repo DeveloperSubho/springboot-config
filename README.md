@@ -20,3 +20,9 @@ mvn clean package
 java -jar target/springboot-config-0.0.1-SNAPSHOT.jar --spring.profiles.active=test  
 ```
 
+### Setting active profiles
+Go to **Run -> Edit Configurations**  
+Go to **Configuration** tab  
+Expand the **Environment** section to reveal *VM options*  
+
+![Alt text](/screenshots/RunConfigProfile.png?raw=true "Run Configuration Profile")  
